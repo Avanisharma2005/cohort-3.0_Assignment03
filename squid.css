@@ -1,0 +1,161 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url("https://i.pinimg.com/1200x/ad/25/3d/ad253d60cea8e593d1d95236e3ea1f69.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height:70px;
+  width: 70px;
+  display: flex;
+  top:10px;
+  left: 50px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 19px;
+}
+
+.menu {
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  right: 100px;
+  color: #c9c9c9;
+}
+
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 45%;
+}
+
+.left h1 {
+  font-size: 10px;
+  line-height: 10px;
+  margin-bottom: 10px;
+}
+
+.symbols {
+  font-size: 50px;
+  color: #c9c9c9;
+  position: absolute;
+  left: 100px;
+  top: 420px;
+}
+
+.symbols span {
+  margin-right: 15px;
+}
+
+.description {
+  color: #c9c9c9;
+  font-weight: 400px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  position: absolute;
+  top: 480px;
+  left: 100px;
+}
+
+.buttons button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 15px;
+  
+  font-size: 18px;
+  position: absolute;
+  top: 550px;
+  left: 100px;
+
+}
+
+.play-btn {
+  background: linear-gradient(to right, #ff0066, #ff9900);
+  color: white;
+}
+
+.right {
+  width: 400px;
+  max-width: 50%;
+  position: absolute;
+  left:1300px;
+  z-index: 50px;
+}
+
+
+.cards {
+  margin-top: 130px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  width: 32%;
+  position: relative;
+  overflow:hidden;
+  border-radius: 15px;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit:cover;
+  display: block;
+}
+
+.play-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background: rgba(255,255,255,0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+}
